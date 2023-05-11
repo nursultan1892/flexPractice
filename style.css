@@ -1,0 +1,56 @@
+
+.container {
+    display: flex;
+    border: 2px solid black;  
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    background-color: #21807F;
+    justify-content: center; 
+}
+.boxes {
+    border: 10px solid #B2B375;
+    flex-basis: 15%;
+    height: 100px;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 73%;
+    
+}
+.third {
+    flex-grow: 2;
+}
+.middle div {
+    margin: 1%;
+}
+.sixth {
+    background-color: #B2B375;
+    display: flex;
+    align-self: flex-end;
+    width: 150px;
+    height: 10px;
+}
+.seventh {
+    background-color: #B2B375;
+    width: 150px;
+    height: 50px;
+}
+.eight {
+    background-color: #B2B375;
+    width: 98%;
+}
+.nineth {
+    background-color: #B2B375;
+    width: 150px;
+    height: 10px;
+}
+.tenth {
+    align-self: flex-end;
+    background-color: #B2B375;
+    width: 150px;
+    height: 10px;
+}
